@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Math</title>
+
+    <!-- SCSS -->
+    <link rel="stylesheet" href="./assets/css/simplemath.css">
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans|Playfair+Display+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="mainTextBody">
+        <h1>Math Me!</h1>
+    </div>
+
+    <!-- Main -->
+    <section>
+        <div class="mainBody">
+            <div class="inputTitle">Input 1</div>
+            <input class="inputCSS" type="text" 
+            placeholder="Type number here" id="input1"><br />
+
+            <div class="inputTitle">Input 2</div>
+            <input class="inputCSS" type="text" 
+            placeholder="Type number here" id="input2"><br />
+
+            <div class="selectBox">
+            <div class="inputTitle"><label for="menu">Which Operations?</label></div>
+            <select id="operator" class="selectCSS">
+                <option value="+">Addition ( + )</option>
+                <option value="-">Subtraction ( - )</option>
+                <option value="x">Multiplication ( * )</option>
+                <option value="/">Division ( / )</option>
+            </select><br />
+            <button onclick="calc()" class="buttonCSS">Calculate</button><br />
+            </div>
+
+            <div class="inputTitle">Result</div>
+            <input class="inputCSS" type="text" disabled="disabled" id="result">
+        </div>
+    </section><br />
+
+    <footer class="footerCSS">
+        <h4>&copy; 2020 helloyvonne <a target="_blank" href="./quotesGenerator.html">Random Quote?</a></h4>
+    </footer>
+
+    <!-- JavaScript -->
+<script src="./js/simplemath.js"></script>
+</body>
+
+</html>

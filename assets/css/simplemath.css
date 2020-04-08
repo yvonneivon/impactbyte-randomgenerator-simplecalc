@@ -1,0 +1,103 @@
+body {
+  background-color: #CAB39F;
+}
+
+.mainBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainTextBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Playfair Display SC', serif;
+  color: #C36F31;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.inputTitle {
+  font-family: 'Playfair Display SC', serif;
+  color: #C36F31;
+  font-size: 20px;
+}
+
+.selectBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.selectCSS {
+  font-family: 'DM Sans', sans-serif;
+  color: #C36F31;
+  width: auto;
+  height: 30px;
+}
+
+.inputCSS {
+  width: auto;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  text-align: center;
+}
+
+.buttonCSS {
+  font-family: 'DM Sans', sans-serif;
+  color: #C36F31;
+  width: auto;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.buttonCSS:active {
+  border: none;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+.footerCSS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  color: #C36F31;
+}
+/*# sourceMappingURL=simplemath.css.map */

@@ -1,0 +1,79 @@
+@mixin centerThings {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin forFontPlayFair {
+    font-family: 'Playfair Display SC', serif;
+    color: #C36F31;
+}
+
+@mixin forFontDMSans {
+    font-family: 'DM Sans', sans-serif;
+    color: #C36F31;   
+}
+
+@mixin forBox {
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #CAB39F;
+}
+
+.mainBody {
+    display: flex;
+    flex-flow: column;
+    @include centerThings;
+}
+
+.mainTextBody {
+    display: flex;
+    @include centerThings;
+    @include forFontPlayFair;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.inputTitle {
+    @include forFontPlayFair;
+    font-size: 20px;
+}
+
+.selectBox {
+    display: flex;
+    flex-flow: column;
+    @include centerThings;
+}
+
+.selectCSS {
+    @include forFontDMSans;
+    width: auto;
+    height: 30px;
+}
+
+.inputCSS {
+    @include forBox;
+    text-align: center;
+    text-align: center;
+}
+
+.buttonCSS {
+    @include forFontDMSans;
+    @include forBox;
+    text-align: center;
+    cursor: pointer;  
+}
+
+.buttonCSS:active {
+    border: none;
+    transform: translateY(5px);
+}
+
+.footerCSS {
+    display: flex;
+    @include centerThings;
+    @include forFontDMSans;
+}

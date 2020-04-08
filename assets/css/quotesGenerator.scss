@@ -1,0 +1,99 @@
+@mixin centerThings {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin forFontCormorant {
+    font-family: 'Cormorant Upright', serif;
+}
+
+@mixin forFontKreon {
+    font-family: 'Kreon', serif;
+}
+
+body {
+    background-color: #EBCFC4;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center; 
+}
+
+p {
+    @include forFontKreon;
+    color: #503030;
+    font-size: 18px;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    border-style: dashed;
+    border-color: #503030;
+    padding: 5px;
+}
+
+.h1CSS {
+    @include forFontKreon;
+    color: #503030;
+    font-size: 42px;   
+}
+      
+.forTitle {
+    background-color: rosybrown;
+    @include forFontKreon;
+    width: 100%;
+    align-self: center;
+    color: #503030;
+    font-size: 46px;
+}
+
+.forMainBox {
+    background-color: transparent;
+    height: auto;
+    padding: 5px;
+    width: 60%;
+    align-self: center;
+    border-style: dashed;
+    border-color: #503030;
+    border-radius: 10px;  
+}
+
+.forQuotes {
+    background-color: transparent;
+    border-radius: 10px;
+    @include forFontCormorant;
+    padding: 10px;
+    font-size: 24px;
+    color: #503030;
+    font-weight: bolder;
+}
+
+.forButton {
+    @include forFontKreon;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rosybrown;
+    border: none;
+    color: #503030;  
+}
+
+.forButton:hover {
+    background-color: rgb(179, 134, 134);   
+}
+
+.forButton:active {
+    border: none;
+    transform: translateY(5px);
+}
+
+.footerCSS {
+    font-size: 18px;
+    @include forFontKreon;
+    color: #503030; 
+}
+

@@ -1,0 +1,97 @@
+body {
+  background-color: #EBCFC4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+p {
+  font-family: 'Kreon', serif;
+  color: #503030;
+  font-size: 18px;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  border-style: dashed;
+  border-color: #503030;
+  padding: 5px;
+}
+
+.h1CSS {
+  font-family: 'Kreon', serif;
+  color: #503030;
+  font-size: 42px;
+}
+
+.forTitle {
+  background-color: rosybrown;
+  font-family: 'Kreon', serif;
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #503030;
+  font-size: 46px;
+}
+
+.forMainBox {
+  background-color: transparent;
+  height: auto;
+  padding: 5px;
+  width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-style: dashed;
+  border-color: #503030;
+  border-radius: 10px;
+}
+
+.forQuotes {
+  background-color: transparent;
+  border-radius: 10px;
+  font-family: 'Cormorant Upright', serif;
+  padding: 10px;
+  font-size: 24px;
+  color: #503030;
+  font-weight: bolder;
+}
+
+.forButton {
+  font-family: 'Kreon', serif;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rosybrown;
+  border: none;
+  color: #503030;
+}
+
+.forButton:hover {
+  background-color: #b38686;
+}
+
+.forButton:active {
+  border: none;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+.footerCSS {
+  font-size: 18px;
+  font-family: 'Kreon', serif;
+  color: #503030;
+}
+/*# sourceMappingURL=quotesGenerator.css.map */
