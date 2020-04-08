@@ -26,6 +26,11 @@ img {
   border-style: dashed;
   border-color: #503030;
   padding: 5px;
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 0.8;
 }
 
 .h1CSS {
@@ -36,6 +41,7 @@ img {
 
 .forTitle {
   background-color: rosybrown;
+  opacity: 0.8;
   font-family: 'Kreon', serif;
   width: 100%;
   -ms-flex-item-align: center;
@@ -77,6 +83,7 @@ img {
   background-color: rosybrown;
   border: none;
   color: #503030;
+  border-radius: 10px;
 }
 
 .forButton:hover {

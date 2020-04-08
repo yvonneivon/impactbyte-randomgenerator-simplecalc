@@ -1,5 +1,8 @@
 body {
   background-color: #CAB39F;
+  background-image: url(/assets/img/dino.png);
+  background-position: center;
+  background-size: contain;
 }
 
 .mainBody {
@@ -28,15 +31,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Playfair Display SC', serif;
-  color: #C36F31;
+  font-family: 'Bree Serif', serif;
+  color: #5D432C;
   font-size: 26px;
-  font-weight: bold;
+  text-shadow: 3px 6px #918989;
 }
 
 .inputTitle {
-  font-family: 'Playfair Display SC', serif;
-  color: #C36F31;
+  font-family: 'Bree Serif', serif;
+  color: #5D432C;
   font-size: 20px;
 }
 
@@ -58,25 +61,36 @@ body {
 
 .selectCSS {
   font-family: 'DM Sans', sans-serif;
-  color: #C36F31;
+  color: #5D432C;
+  font-size: 16px;
   width: auto;
   height: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  color: #5D432C;
 }
 
 .inputCSS {
   width: auto;
   height: 30px;
   border-radius: 10px;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  color: #5D432C;
   text-align: center;
   text-align: center;
 }
 
 .buttonCSS {
   font-family: 'DM Sans', sans-serif;
-  color: #C36F31;
+  color: #5D432C;
   width: auto;
   height: 30px;
   border-radius: 10px;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  color: #5D432C;
   text-align: center;
   cursor: pointer;
 }
@@ -98,6 +112,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-family: 'DM Sans', sans-serif;
-  color: #C36F31;
+  color: #5D432C;
 }
 /*# sourceMappingURL=simplemath.css.map */
