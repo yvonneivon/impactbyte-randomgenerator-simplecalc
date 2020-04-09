@@ -18,5 +18,6 @@ let quotes =[
 // function
 function forQuotes(){
 let randomNumber = Math.floor(Math.random() * (quotes.length)); // for generate random number
+console.log(Math.random);
 document.getElementById(`displayQuote`).innerHTML = quotes[randomNumber];
 }
