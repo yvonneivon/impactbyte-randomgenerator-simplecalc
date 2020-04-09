@@ -22,13 +22,13 @@ body {
 p {
     @include forFontKreon;
     color: #503030;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
 }
 
 img {
-    width: 60%;
-    height: 100%;
+    width: 47.5%;
+    height: auto;
     border-radius: 20px;
     border-style: dashed;
     border-color: #503030;
@@ -60,7 +60,7 @@ img:hover {
     background-color: transparent;
     height: auto;
     padding: 5px;
-    width: 60%;
+    width: 95%;
     align-self: center;
     border-style: dashed;
     border-color: #503030;
