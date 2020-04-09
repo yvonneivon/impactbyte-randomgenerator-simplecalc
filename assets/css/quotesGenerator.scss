@@ -22,17 +22,18 @@ body {
 p {
     @include forFontKreon;
     color: #503030;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
 }
 
 img {
-    width: 47.5%;
+    max-width: 400px;
+    width: 95%;
     height: auto;
     border-radius: 20px;
     border-style: dashed;
     border-color: #503030;
-    padding: 5px;
+    padding: 3px;
     cursor: pointer;
 }
 
@@ -50,10 +51,11 @@ img:hover {
     background-color: rosybrown;
     opacity: 0.8;
     @include forFontKreon;
+    max-width: 100%;
     width: 100%;
     align-self: center;
     color: #503030;
-    font-size: 46px;
+    font-size: 44px;
 }
 
 .forMainBox {
@@ -61,6 +63,7 @@ img:hover {
     height: auto;
     padding: 5px;
     width: 95%;
+    max-width: 800px;
     align-self: center;
     border-style: dashed;
     border-color: #503030;
